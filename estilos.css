@@ -1,0 +1,17 @@
+body{
+  border-style:solid;
+}
+
+h1 {
+
+  font-family: Lobster Two;
+  font-size: 30px;
+  margin-top: 0px;
+  height: 60px;
+  background-color:#cbf3f0;
+  color: #006d77;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+}
