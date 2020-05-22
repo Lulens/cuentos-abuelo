@@ -1,17 +1,31 @@
+/*Selectores de etiqueta*/
 body{
   border-style:solid;
 }
 
 h1 {
-
-  font-family: Lobster Two;
+  font-family: Alegreya Sans SC;
   font-size: 30px;
   margin-top: 0px;
   height: 60px;
-  background-color:#cbf3f0;
-  color: #006d77;
+  background-color:#CBF3F0;
+  color: #006D77;
   display: flex;
-  text-align: center;
+  align-items: center;
   justify-content: center;
+}
 
+ul {
+  font-family: Amiko;
+  font-size: 14px;
+  padding-left: 70px;
+}
+
+/*Selectores de clase*/
+.titulo-secundario {
+  font-family: Alex Brush;
+  font-size: 26px;
+  color: #C56A6B;
+  margin-top: 30px;
+  padding-left: 30px;
 }
