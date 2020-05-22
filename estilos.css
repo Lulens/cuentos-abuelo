@@ -19,6 +19,24 @@ ul {
   font-family: Amiko;
   font-size: 14px;
   padding-left: 70px;
+  list-style-type: none;
+}
+
+li {
+  padding-bottom: 10px;
+  transition: 0.2s;
+}
+
+li:hover{
+  transform: scale(1.029);
+}
+
+ul li {
+  padding-left: 36px;
+  background-image: url("https://img.freepik.com/vector-gratis/libro-abierto-blanco_1308-22968.jpg?size=626&ext=jpg");
+  background-position: 0 0;
+  background-size: 30px;
+  background-repeat: no-repeat;
 }
 
 /*Selectores de clase*/
