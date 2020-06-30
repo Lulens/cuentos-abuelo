@@ -62,6 +62,7 @@ ul li {
   margin-left: 60px;
   font-family: Amiko;
   font-size: 14px;
+  line-height: 25px;
 }
 
 .imagen {
@@ -72,6 +73,15 @@ ul li {
 }
 
 .grid-foto {
-  width: 100px;
-  height: 160px;
+  display: block;
+  width: 180px;
+  height: 200px;
+  margin: 5px;
+  text-align: center;
+  border: none;
+  background-color: #FFF;
+  text-decoration: none;
+  padding: 5px 5px 35px 5px;
+  box-shadow: 0 3px 6px #666;
+
 }
