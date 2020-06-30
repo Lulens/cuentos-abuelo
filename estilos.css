@@ -48,3 +48,30 @@ ul li {
   margin-top: 30px;
   padding-left: 30px;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1.5fr 0.5fr;
+  grid-template-rows: fr;
+  gap: 0px 10px;
+  grid-template-areas: "parrafo imagen";
+}
+
+.parrafo {
+  grid-area: parrafo;
+  margin-left: 60px;
+  font-family: Amiko;
+  font-size: 14px;
+}
+
+.imagen {
+  grid-area: imagen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-foto {
+  width: 100px;
+  height: 160px;
+}
