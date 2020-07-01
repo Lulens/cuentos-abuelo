@@ -40,10 +40,23 @@ ul li {
   background-repeat: no-repeat;
 }
 
+footer {
+  background-color: #E5E5E5;
+  font-family: Amiko;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
 /*Selectores de clase*/
 .titulo-secundario {
   font-family: Alex Brush;
-  font-size: 26px;
+  font-size: 36px;
   color: #C56A6B;
   margin-top: 30px;
   padding-left: 30px;
@@ -63,6 +76,7 @@ ul li {
   font-family: Amiko;
   font-size: 14px;
   line-height: 25px;
+  text-indent: 40px;
 }
 
 .imagen {
@@ -85,3 +99,21 @@ ul li {
   box-shadow: 0 3px 6px #666;
 
 }
+
+.caption {
+  display: block;
+  margin-top:-1.4em;
+  text-align:center;
+  font-family: Alex Brush;
+  font-size: 28px;
+}
+
+.linkedin{
+  height: 20px;
+  width: 20px;
+}
+
+.lulens{
+  align-items: center;
+}
+/*Selectores de ID*/
