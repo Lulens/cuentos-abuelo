@@ -1,14 +1,10 @@
 /*Selectores de etiqueta*/
-body{
-  border-style:solid;
-}
-
 h1 {
-  font-family: Alegreya Sans SC;
-  font-size: 30px;
+  font-family: Amiko;
+  font-size: 42px;
   margin-top: 0px;
-  height: 60px;
-  background-color:#CBF3F0;
+  height: 114px;
+  background-color:#83DEDC;
   color: #006D77;
   display: flex;
   align-items: center;
@@ -18,9 +14,12 @@ h1 {
 ul {
   font-family: Amiko;
   font-size: 14px;
+  color: #DD493B;
   padding-left: 70px;
   margin-right: 700px;
   list-style-type: none;
+  column-count: 2;
+  column-gap: 40px;
 }
 
 li {
@@ -30,6 +29,7 @@ li {
 
 li:hover{
   transform: scale(1.049);
+  color: #006D77;
 }
 
 ul li {
@@ -42,16 +42,19 @@ ul li {
 
 footer {
   background-color: #E5E5E5;
-  font-family: Amiko;
-  font-size: 18px;
+  font-family: Alegreya Sans SC;
+  font-size: 14px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content:center;
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
 }
 
+span {
+  color: #6A7584;
+}
 
 /*Selectores de clase*/
 .titulo-secundario {
@@ -86,6 +89,10 @@ footer {
   justify-content: center;
 }
 
+.grid-biografia{
+  color:#6A7584;
+}
+
 .grid-foto {
   display: block;
   width: 180px;
@@ -115,5 +122,10 @@ footer {
 
 .lulens{
   align-items: center;
+  color:#C56A6B;
+}
+
+.derechos{
+  color:#C56A6B;
 }
 /*Selectores de ID*/
