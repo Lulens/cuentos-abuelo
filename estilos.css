@@ -1,9 +1,9 @@
 /*Selectores de etiqueta*/
 h1 {
   font-family: Amiko;
-  font-size: 50px;
+  font-size: 42px;
   margin-top: 0px;
-  height: 100px;
+  height: 114px;
   background-color:#83DEDC;
   color: #006D77;
   display: flex;
@@ -13,10 +13,13 @@ h1 {
 
 ul {
   font-family: Amiko;
-  font-size: 16px;
+  font-size: 14px;
+  color: #DD493B;
   padding-left: 70px;
   margin-right: 700px;
   list-style-type: none;
+  column-count: 2;
+  column-gap: 40px;
 }
 
 li {
@@ -26,7 +29,7 @@ li {
 
 li:hover{
   transform: scale(1.049);
-  cursor: pointer
+  color: #006D77;
 }
 
 ul li {
@@ -39,24 +42,26 @@ ul li {
 
 footer {
   background-color: #E5E5E5;
-  font-family: Amiko;
+  font-family: Alegreya Sans SC;
   font-size: 14px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content:center;
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
 }
 
+span {
+  color: #6A7584;
+}
 
 /*Selectores de clase*/
 .titulo-secundario {
   font-family: Alex Brush;
   font-size: 36px;
   color: #C56A6B;
-  margin-top: 50px;
-  margin-bottom: 10px;
+  margin-top: 30px;
   padding-left: 30px;
 }
 
@@ -66,14 +71,13 @@ footer {
   grid-template-rows: fr;
   gap: 0px 10px;
   grid-template-areas: "parrafo imagen";
-  padding-bottom: 40px;
 }
 
 .parrafo {
   grid-area: parrafo;
   margin-left: 60px;
   font-family: Amiko;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 25px;
   text-indent: 40px;
 }
@@ -83,6 +87,10 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.grid-biografia{
+  color:#6A7584;
 }
 
 .grid-foto {
@@ -96,6 +104,7 @@ footer {
   text-decoration: none;
   padding: 5px 5px 35px 5px;
   box-shadow: 0 3px 6px #666;
+
 }
 
 .caption {
@@ -107,12 +116,16 @@ footer {
 }
 
 .linkedin{
-  height: 30px;
-  width: 30px;
-  align-items: center;
+  height: 20px;
+  width: 20px;
 }
 
 .lulens{
   align-items: center;
+  color:#C56A6B;
+}
+
+.derechos{
+  color:#C56A6B;
 }
 /*Selectores de ID*/
